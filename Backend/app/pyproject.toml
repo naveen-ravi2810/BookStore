@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["naveen-ravi2810 <rnaveen28102003@gmial.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alembic = "^1.13.1"
+sqlmodel = "^0.0.14"
+fastapi = "^0.109.2"
+bcrypt = "^4.1.2"
+pydantic-settings = "^2.1.0"
+psycopg2 = "^2.9.9"
+uvicorn = "^0.27.1"
+pyjwt = "^2.8.0"
+black = "^24.1.1"
+redis = "^5.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
